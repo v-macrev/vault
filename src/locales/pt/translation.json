@@ -17,7 +17,7 @@
     "downloading": "{{title}} ({{percentage}} - Baixando…)",
     "filter": "Filtrar biblioteca",
     "home": "Início",
-    "follow_us": "Acompanhe-nos",
+    "follow_us": "Victor Rodrigues, Gabriel Borrozzino, Augusto Cardoso e Igor Ortiz",
     "discord": "Entre no nosso Discord",
     "x": "Siga-nos no X",
     "github": "Contribua no GitHub"
@@ -145,7 +145,7 @@
     "repack_count_other": "{{count}} novos repacks"
   },
   "system_tray": {
-    "open": "Abrir Hydra",
+    "open": "Abrir Vault",
     "quit": "Fechar"
   },
   "game_card": {

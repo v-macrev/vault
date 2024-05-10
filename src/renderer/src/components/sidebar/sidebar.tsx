@@ -35,17 +35,17 @@ export function Sidebar() {
 
   const socials = [
     {
-      url: "https://discord.gg/hydralauncher",
+      url: "https://discord.gg/macrev",
       icon: <DiscordLogo />,
       label: t("discord"),
     },
     {
-      url: "https://twitter.com/hydralauncher",
+      url: "https://twitter.com/vik_macrev",
       icon: <XLogo />,
       label: t("x"),
     },
     {
-      url: "https://github.com/hydralauncher/hydra",
+      url: "https://github.com/v-macrev",
       icon: <MarkGithubIcon size={16} />,
       label: t("github"),
     },
@@ -240,21 +240,7 @@ export function Sidebar() {
       <footer className={styles.sidebarFooter}>
         <div className={styles.footerText}>{t("follow_us")}</div>
 
-        <span className={styles.footerSocialsContainer}>
-          {socials.map((item) => {
-            return (
-              <button
-                key={item.url}
-                className={styles.footerSocialsItem}
-                onClick={() => window.electron.openExternal(item.url)}
-                title={item.label}
-                aria-label={item.label}
-              >
-                {item.icon}
-              </button>
-            );
-          })}
-        </span>
+        
       </footer>
     </aside>
   );
